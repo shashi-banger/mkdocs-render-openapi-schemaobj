@@ -1,0 +1,14 @@
+site_name: Render OpenApi Schema Example
+site_author: Shashidhar
+site_description: >-
+  Example docs
+edit_uri: ""
+
+theme:
+  name: material
+
+plugins:
+  - render_openapi_schemaobj
+
+nav:
+  - Overview: index.md

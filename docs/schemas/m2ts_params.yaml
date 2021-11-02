@@ -1,0 +1,14 @@
+$ref: '#/definitions/m2ts_params'
+definitions:
+  m2ts_params:
+    properties:
+      video_pid:
+        type: integer
+      audio_pids:
+        items: 
+          type: integer
+        type: array
+      bitrate:
+        type: integer
+        description: Bitrate of transport stream in bits per second 
+    type: object

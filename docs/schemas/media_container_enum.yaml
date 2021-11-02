@@ -1,0 +1,12 @@
+$ref: '#/definitions/media_container_enum'
+definitions:
+  media_container_enum:
+    enum:
+      - M2TS
+      - M3U8
+      - MOV
+      - MP4 
+      - MXF
+      - WEBM
+    type: string
+    description: Media container types

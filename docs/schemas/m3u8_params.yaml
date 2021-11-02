@@ -1,0 +1,14 @@
+$ref: '#/definitions/m3u8_params'
+definitions:
+  m3u8_params:
+    properties:
+      video_pid:
+        type: integer
+      audio_pids:
+        items: 
+          type: integer
+        type: array
+      segment_duration:
+        type: integer
+        description: Segment duration in seconds
+    type: object

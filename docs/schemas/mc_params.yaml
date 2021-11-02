@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/draft-04/schema#
+$ref: '#/definitions/mc_params'
+definitions:
+  mc_params:
+    properties:
+      container_type:
+        $ref: 'media_container_enum.yaml#/definitions/media_container_enum'
+      container_params:
+        oneOf:
+          - $ref: 'm3u8_params.yaml#/definitions/m3u8_params'
+          - $ref: 'm2ts_params.yaml#/definitions/m2ts_params'
+        description: Parameters for the specific media container format e.g. m2ts, mp4m m2u8 etc
+    additionalProperties: false
+    description: Parameters describing media container 
+    type: object
+     
