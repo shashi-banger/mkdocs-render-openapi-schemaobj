@@ -8,7 +8,7 @@ data models as SchemaObject and render them using mkdocs.
 
 ### Installation
 
-python -m pip install https://github.com/shashi-banger/mkdocs-render-openapi-schemaobj
+python -m pip install git+https://github.com/shashi-banger/mkdocs-render-openapi-schemaobj.git
 
 ### Documentation
 
