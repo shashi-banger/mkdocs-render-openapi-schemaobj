@@ -18,3 +18,10 @@ Check [index.md](docs/index.md) of the example documentation.
 
 Check schemas in schemas `docs/schemas`.
 
+### Mkdocs
+
+Run the following after cloning this repo, to see the plugin in action.
+
+```
+mkdocs serve
+```
